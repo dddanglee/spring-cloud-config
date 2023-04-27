@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: lshhi12345hsl
+  secret: lshvaue123
 
 gateway:
   ip: 127.0.0.1
