@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: lshvaue123_def
+  secret: lshvaue123_prod
 
 gateway:
   ip: 127.0.0.1
