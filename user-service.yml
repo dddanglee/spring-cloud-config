@@ -1,0 +1,17 @@
+spirng:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: '{cipher}AQCXlMqRf3GD/lopiPUrMdI7K4YpL9t38uVTxPiXAbwQXnL91BcEB1YkX2Mdyxepf4Si1fnYRSqILd9S7WZW9+WcIBAN1NKo4B45KOKqAa2jautFZx/T19qSW7KVmo0nWLszqyYC2I5+ajjXzVb6ODka/qrPzSvGDKEiMP0Ck7UQL4mbqnbpHqKvGv/ASTdW7RMU7y4CZad1HKeOFpmr/LyCUugBUtwdh07fb1Cv9KM4c+Fn/AlJirsVKf4sA2mAjlXlFGDWaZ0EgAwKgsOC+cms33SL1h/dpCE0fbPJpHonRcbojE+CMstFY26BT/sprLthcVkza9EaHbfrtVQmv5oclq6zzRYWTfx0UG6zIFii1jgO4ZZPVWdccYivNqBKy3g='
+#token:
+#  expiration_time: 86400000
+#  secret: native-user-service
+
+gateway:
+  ip: 127.0.0.1
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
+  exception:
+    order_is_empty: User's orders empty.....

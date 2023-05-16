@@ -1,6 +1,6 @@
-token:
-  expiration_time: 86400000
-  secret: lshvaue123_def
+#token:
+#  expiration_time: 86400000
+#  secret: '{cipher}AQCtMwa1TtuYRbnh9ie90B+iyQZVgnAh6wWtcEzQ11rIS1V2UhNVnqXCR+NqCV04x5k4fK32cm4QwIaapyckmzYI8QyZPtQ38ITA2oQCOWl4XLYgCU6xoTBac4bI/9H6pOIIgXOdqZdLvNH/V+h18CJmvfILthLK/gMI7s9ip2a7/Hl0pV1tlrtuYA9rBDw986dFyX2UxfDed4dzQpZT7IvPf2sBkOSHpu2Ve+N8fRUKnvdRlGaW2FXtdRnp7hAAJwtrgvWyfcnerGHCpJiW9tpL05DFTCZaeKrSl4Ae2ttUk6Fv8T9vjZCbVlvuWSL6Km0JbbA89gmVneiOAieYym0v8+2A6ZD7WR986/q38XD9VWm8Vk/ci1A7ORrDeilfuHHTulYtOhBjCNyKCPizoVH0'
 
 gateway:
   ip: 127.0.0.1
